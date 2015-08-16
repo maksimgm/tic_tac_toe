@@ -1,0 +1,43 @@
+.row{
+  height: 200px;
+  width: 600px;
+}
+
+.box{
+  height: 195px;
+  width: 195px;
+  border: 2px solid black;
+  display: inline-block;
+  float: left;
+  border-collapse: collapse;
+  border-radius: 20px;
+}
+
+.wrapper{
+  background: #339966;
+  border-radius: 20px;
+  border: 5px #330066 solid;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  width: 600px;
+  margin-top: 30px;
+}
+
+body{
+  background: #3399CC;
+}
+
+.button {
+  padding: 20px;
+}
+
+.button input{
+  height: 40px;
+  width: 140px;
+  background: grey;
+}
+
+.image{
+  
+}
