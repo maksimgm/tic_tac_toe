@@ -2,7 +2,10 @@
   height: 200px;
   width: 600px;
 }
-
+.image{
+  height: 180px;
+  width: 180px;
+}
 .box{
   height: 195px;
   width: 195px;
