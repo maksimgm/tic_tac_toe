@@ -2,9 +2,12 @@
   height: 200px;
   width: 600px;
 }
-.image{
-  height: 180px;
-  width: 180px;
+img{
+  max-height: 195px;
+  max-width: 195px;
+  border-radius: 20px;
+  opacity: .8;
+  background-color: #339966;
 }
 .box{
   height: 195px;
@@ -23,7 +26,7 @@
   margin-left: auto;
   margin-right: auto;
   height: 600px;
-  width: 600px;
+  width: 593px;
   margin-top: 30px;
 }
 
@@ -39,6 +42,7 @@ body{
   height: 40px;
   width: 140px;
   background: grey;
+  margin-left: auto;
 }
 
 .image{
