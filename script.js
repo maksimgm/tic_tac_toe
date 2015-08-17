@@ -59,6 +59,8 @@ function restart(){
     oneBox[i].move = '';
     playerX = {};
     playerO = {};
+    // if x wins, x goes twice... figure out problem.
+    // letter = 'letter_x.jpeg';
 
     // something is not being reset.... if x wins. o goes the next game. ???
     }
