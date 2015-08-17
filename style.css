@@ -38,13 +38,19 @@ body{
   padding: 20px;
 }
 
+h1{
+  font-family: helvetica;
+  font-size: 28px;
+}
+
 .button input{
+  display: block;
   height: 40px;
   width: 140px;
   background: grey;
-  margin-left: auto;
-}
-
-.image{
-  
+  margin: 0 auto;
+  color: white;
+  font-size: 24px;
+  font-family: helvetica;
+  box-shadow: 5px 5px 5px green;
 }

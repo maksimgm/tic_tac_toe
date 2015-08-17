@@ -12,7 +12,6 @@ function changeTurn(){
 }
 
 
-
 function turnChanger(){
   if (turn) {
     //playerO is global 
@@ -44,7 +43,7 @@ function addXsAndOs(){
           playerO[this.square] = true;
         }
         // playerX[this.square] = true;
-        console.log(turn);
+        
         // playerO[this.square] 
         turnChanger();
         changeTurn();
@@ -63,7 +62,6 @@ function reset(){
     oneBox[i].move = '';
     playerX = {};
     playerO = {};
-    turn = true;
     }
   });
 }
