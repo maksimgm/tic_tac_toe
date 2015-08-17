@@ -4,7 +4,7 @@ var turn = true;
 var letter = 'letter_x.jpeg';
 var oneBox = document.querySelectorAll(".row .box");
 addXsAndOs();
-reset();
+restart();
 
 
 function changeTurn(){
@@ -42,9 +42,6 @@ function addXsAndOs(){
         }else{
           playerO[this.square] = true;
         }
-        // playerX[this.square] = true;
-        
-        // playerO[this.square] 
         turnChanger();
         changeTurn();
         winningCombination();
@@ -54,7 +51,7 @@ function addXsAndOs(){
 }
 
 
-function reset(){
+function restart(){
   var button = document.getElementById('reset'); 
   button.addEventListener('click', function remove(){
   for(var i =0; i<oneBox.length; i++){
@@ -62,6 +59,8 @@ function reset(){
     oneBox[i].move = '';
     playerX = {};
     playerO = {};
+
+    // something is not being reset.... if x wins. o goes the next game. ???
     }
   });
 }
