@@ -52,6 +52,7 @@ function addXsAndOs(){
 
 
 function restart(){
+
   var button = document.getElementById('reset'); 
   button.addEventListener('click', function remove(){
   for(var i =0; i<oneBox.length; i++){
@@ -60,10 +61,12 @@ function restart(){
     playerX = {};
     playerO = {};
     // if x wins, x goes twice... figure out problem.
-    // letter = 'letter_x.jpeg';
-
+    
+    // turn = true;
     // something is not being reset.... if x wins. o goes the next game. ???
     }
+    letter = 'letter_x.jpeg';
+    turn = true;
   });
 }
 // determine winner
